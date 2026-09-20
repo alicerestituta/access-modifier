@@ -15,15 +15,17 @@ public class Buku {
         this.bookCode = bookCode;
     }
 
-    // Getter untuk atribut private
+    // Getter untuk atribut protected
     public int getBookStok(){
         return bookStok;
     }
 
+    // Getter untuk atribut default
     public String getPenerbit(){
         return penerbit;
     }
 
+    // Getter untuk atribut private
     public String getBookCode(){
         return bookCode;
     }
