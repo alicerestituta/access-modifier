@@ -26,7 +26,6 @@ public class SimulasiAccessModifier {
         System.out.println("Password: " + anggota.password);        // Error karena atribut memiliki access modifier bersifat private dan tidak dapat diakses dari luar kelas
 
         Buku novel = new Buku("Laut Bercerita", 12, "KPG", "9786");
-
         // Skenario 3 dengan beda package + bukan subclass
         System.out.println("Judul (Public)        : " + novel.bookTitle);         // Tidak error karena atribut memiliki access modifier bersifat public
         System.out.println("Stok (Protected)      : " + novel.bookStok);          // Error karena atribut memiliki access modifier bersifat protected dan bukan subclass
