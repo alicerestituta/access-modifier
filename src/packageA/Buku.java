@@ -29,7 +29,7 @@ public class Buku {
     public String getBookCode(){
         return bookCode;
     }
-
+    
     public boolean pinjam(){
         if (bookStok > 0){
             bookStok--;
