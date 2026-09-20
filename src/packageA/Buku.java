@@ -20,6 +20,10 @@ public class Buku {
         return bookStok;
     }
 
+    public String getPenerbit(){
+        return penerbit;
+    }
+
     public String getBookCode(){
         return bookCode;
     }
